@@ -6,7 +6,7 @@ import Contact from './pages/Contact'
 import './styles/index.css'
 
 function App() {
-  // Get basename from package.json homepage field
+  // For custom domain, use empty basename
   const basename = process.env.PUBLIC_URL || ''
   
   return (
